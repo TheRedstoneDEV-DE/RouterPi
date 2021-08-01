@@ -73,7 +73,6 @@ int main(){
           outfile << "bash /home/pi/startBridge.sh";
         }
     }else{
-        cin.ignore( numeric_limits <streamsize> ::max(), '\n' );
         cout << "Step 1: Installation of required software-packages via APT\n";
         cout << "Installing dnsmasq...\n";
         system("sudo apt install dnsmasq");
