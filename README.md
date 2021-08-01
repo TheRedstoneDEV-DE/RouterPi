@@ -6,5 +6,5 @@ Please Notice, that if you find somewhere else a software with the same name Thi
 * installation
   * type in your terminal on the raspberrypi or other Debian/Ubuntu based system:
 * ```bash
-    curl curl https://www.thereddeveloper.tk/InstallationDictionary/routerpi.install | sudo /bin/bash
+    curl https://www.thereddeveloper.tk/InstallationDictionary/routerpi.install | sudo /bin/bash
   ```
