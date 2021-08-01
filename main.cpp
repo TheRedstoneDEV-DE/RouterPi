@@ -77,7 +77,7 @@ int main(){
         cin >> dnsServerAdress;
         cout << "\nShould the bridge be started at Boot-progress? [Y/N](pi only!)";
         cin >> startOnBoot;
-        cout << "\nType in the dhcp range for the DHCP server running on ethX [Default: 192.168.2.2,192.168.2.100,12h][Format: <Startadresse>,<Endadresse>,<Leasingzeit>]: ";
+        cout << "\nType in the dhcp range for the DHCP server running on ethX [Default: 192.168.2.2,192.168.2.100,12h][Format: <Startadress>,<Endadress>,<Leasingtime>]: ";
         cin >> dhcpConf;
         cout << "\nWhich interface schould be used as ethernet interface? [Default: eth0]: ";
         cin >> ethInterface;
